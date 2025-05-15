@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 13px;
+    margin: 0;
+    padding: 10px;
+    user-select: none;
+}
+
+#terminal {
+    white-space: pre-wrap;
+}
+
+.line {
+    margin: 0;
+}
+
+.prompt {
+    display: inline;
+    color: #0f0;
+}
+
+input {
+    background: black;
+    border: none;
+    color: #0f0;
+    font-family: monospace;
+    font-size: 13px;
+    outline: none;
+    width: 30px;
+    caret-color: #0f0;
+}
